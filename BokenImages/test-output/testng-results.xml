@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27597" started-at="2020-01-18T16:44:18Z" finished-at="2020-01-18T16:44:45Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="27597" started-at="2020-01-18T16:44:18Z" finished-at="2020-01-18T16:44:45Z">
+      <class name="com.broken.images.tests.BrokenImagesTest">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.broken.images.tests.BrokenImagesTest@7823a2f9]" name="setUpBrowser" is-config="true" duration-ms="12384" started-at="2020-01-18T22:14:18Z" finished-at="2020-01-18T22:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyBrokenImages()[pri:0, instance:com.broken.images.tests.BrokenImagesTest@7823a2f9]" name="verifyBrokenImages" duration-ms="15197" started-at="2020-01-18T22:14:30Z" finished-at="2020-01-18T22:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenImages -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.broken.images.tests.BrokenImagesTest@7823a2f9]" name="closeBrowser" is-config="true" duration-ms="188" started-at="2020-01-18T22:14:45Z" finished-at="2020-01-18T22:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.broken.images.tests.BrokenImagesTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>

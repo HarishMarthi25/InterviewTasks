@@ -1,0 +1,54 @@
+
+===== Project Name ======  BokenImages
+
+=====  Project Description  =====  
+Writing the Automation Script for Basic authentication for URL containing user name and password.
+
+===== Tools Using ===== 
+
+   Programming Language : Java(can be use the JDK above 5)
+   Automation Tool : Selenium WebDriver 3.14.0
+   Framework Used : TestNG Framework
+   Reports : Custom HTML reports
+   Build Tool : Maven
+   
+===== How to Run =====  
+
+===== 1st Method =====  
+
+Run through TestNG file : In the project root node there is a "testng.xml" file. Right click on it and choose 
+	run as then click on "TestNG Suite" Option.
+	
+
+===== 2nd Method =====  
+
+Run through POM file : In the project root node there is a "pom.xml" file. Right click on it and choose 
+	run as then click on "maven test" Option.
+	
+
+=====  Reports Path ===== 
+
+After completion of the script execution reports will be saved in "BasicAuthentication/res/reports/" folder.
+
+
+
+===== How Framework Will Work ========
+
+1. Once run the project through testng.xml or pom.xml file then control will move to "BrokenImagesTest" from there execution will start.
+
+2. In the test base class we are maintaining the driver details and launching the browser.
+
+3. Utils containing the utility method for the the project.
+
+4. Test Data is reading from the external file(Excel Sheet) for this project.
+
+5. Configuration file having all the config details for the drivers, driver keys and reports path etc..
+
+6. Finally reports will be stored under " res/reports/" folder.
+
+7. Here we are using the custom HTML report
+
+
+
+
+
