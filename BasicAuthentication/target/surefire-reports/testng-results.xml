@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18938" started-at="2020-01-21T05:36:35Z" finished-at="2020-01-21T05:36:53Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="18938" started-at="2020-01-21T05:36:35Z" finished-at="2020-01-21T05:36:53Z">
+      <class name="com.basic.auth.tests.LoginAutomationSite">
+        <test-method status="PASS" signature="initializeReport()[pri:0, instance:com.basic.auth.tests.LoginAutomationSite@77b52d12]" name="initializeReport" is-config="true" duration-ms="62" started-at="2020-01-21T11:06:34Z" finished-at="2020-01-21T11:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReport -->
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.basic.auth.tests.LoginAutomationSite@77b52d12]" name="setUpBrowser" is-config="true" duration-ms="7478" started-at="2020-01-21T11:06:35Z" finished-at="2020-01-21T11:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.basic.auth.tests.LoginAutomationSite@77b52d12]" name="doLogin" duration-ms="6054" started-at="2020-01-21T11:06:43Z" data-provider="testData" finished-at="2020-01-21T11:06:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="verifySuccessResponseText()[pri:0, instance:com.basic.auth.tests.LoginAutomationSite@77b52d12]" name="verifySuccessResponseText" duration-ms="4313" started-at="2020-01-21T11:06:49Z" finished-at="2020-01-21T11:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessResponseText -->
+        <test-method status="PASS" signature="stopReorts()[pri:0, instance:com.basic.auth.tests.LoginAutomationSite@77b52d12]" name="stopReorts" is-config="true" duration-ms="107" started-at="2020-01-21T11:06:54Z" finished-at="2020-01-21T11:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReorts -->
+      </class> <!-- com.basic.auth.tests.LoginAutomationSite -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
