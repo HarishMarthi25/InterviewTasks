@@ -1,0 +1,7 @@
+com\hover\details\pages\HoversPage.class
+com\hover\details\setup\SetUp.class
+com\hover\details\tests\UserDetailsRead.class
+com\hover\details\steps\Hooks.class
+com\hover\details\TestRunner.class
+com\hover\details\tests\SetUpBrowser.class
+com\hover\details\steps\HoverAndReadSteps.class
